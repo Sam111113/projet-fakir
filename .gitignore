@@ -1,0 +1,18 @@
+# Ancien dépôt git du frontend (create-next-app), conservé en local
+.ancien-git-frontend/
+
+# Secrets : jamais dans le dépôt
+.env
+.env.*
+!.env.example
+
+# Dépendances et builds
+node_modules/
+.next/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Config locale
+.claude/settings.local.json
